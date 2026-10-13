@@ -1,0 +1,25 @@
+{
+  "name": "pl-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:cucumber": "cucumber-js --require steps/**/*.js --format json:reports/cucumber-report.json",
+  "report": "node report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.1",
+    "multiple-cucumber-html-reporter": "^4.2.0"
+    
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1"
+    
+  }
+}
